@@ -1,16 +1,23 @@
-### Hi there 👋
+# Pandaatje.github.io
 
-<!--
-**Pandaatje/Pandaatje** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Pandaaaatje!!
 
-Here are some ideas to get you started:
+## Remove full history
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Step 1: remove all history (Make sure you have backup, this cannot be reverted)
+```
+cat .git/config  # note origin url https://github.com/Pandaatje/Pandaatje.github.io.git
+rm -rf .git
+```
+
+### Step 2: reconstruct the Git repo with only the current content
+```
+git init
+git add .
+git commit -m "Initial commit"
+```
+### Step 3: push to GitHub.
+```
+git remote add origin https://github.com/Pandaatje/Pandaatje.github.io.git
+git push -u --force origin master
+```
