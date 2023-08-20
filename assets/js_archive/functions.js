@@ -89,10 +89,6 @@ function imageTopInView(window_bottom) {
     }
 } 
 
-function doSomething(scrollPos) {
-    console.log(scrollPos)
-}
-
 let window_bottom = 0;
 let items = document.getElementsByClassName("grid-item");
 let items_images = document.getElementsByClassName("img-responsive");

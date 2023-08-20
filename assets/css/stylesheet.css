@@ -1062,7 +1062,7 @@ Header
     transition: transform 0.4s ease-out;
     transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out; }
   #header {
-    background: inherit;
+    background: none;
     padding-top: 20px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
   .is_menu_open #header {

@@ -4,6 +4,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pandaatje</title>
 	<link href='assets/favicon.svg' rel='shortcut icon' type="image/x-icon"/>
 	<link href='assets/favicon-16.png' rel='icon' sizes="16x16" />
@@ -134,12 +135,12 @@
 				document.getElementById("menu").className = "mob_menu_is_closed";
 				document.querySelector("#header > button > span").className = "lines";
 				document.querySelector("#header > button").className = "mobile_menu_button lines-button x"
-				
+				document.querySelector("body").className = ""
 			}else{
 				document.getElementById("menu").className = "mob_menu_is_open";
 				document.querySelector("#header > button > span").className = "lines mob_menu_is_open_btn_lines";
 				document.querySelector("#header > button").className = "mobile_menu_button lines-button x mob_menu_is_open_size"
-				
+				document.querySelector("body").className = "is_menu_open"
 			}
 		}
 		
