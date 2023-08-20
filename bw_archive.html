@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+
+<html style="scroll-behavior: smooth;cursor: none;">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Pandaatje</title>
+	<link href='assets/favicon.svg' rel='shortcut icon' type="image/x-icon"/>
+	<link href='assets/favicon-16.png' rel='icon' sizes="16x16" />
+	<link href='assets/favicon-32.png' rel='icon' sizes="32x32" />
+	<link href='assets/favicon-96.png' rel='icon' sizes="96x96" />
+	<link href='assets/favicon-192.png' rel='icon' sizes="192x192" />
+
+
+	<!--###################################-->
+	<!-- fonts -->  
+	<link href='assets/code/hosted_fonts-d5ec48dda39ec1dad115aee68d1d6c3460ffc8c8697f01060d36750496a3192f.css' media='screen' rel='stylesheet' type='text/css' />  
+	<link href='assets/code/vendor/webtype_fonts.min-51d9b9edb8f956fb39da113609d790ba607fa4fbda053af8e378bb9233ef4a39.css' media='screen' rel='stylesheet' type='text/css' />
+
+	<!-- styles -->
+	<link href='assets/code/font-awesome.min-3149da3014aff38a256574aa7aa1b947387efee9cdc1fb2d39e234606f231c96.css' media='screen' rel='stylesheet' type='text/css' />
+	<link href='assets/css/stylesheet.css' media='screen' rel='stylesheet' type='text/css' />    
+	<style>.cursor{display:none;}</style>
+	<!--###################################-->
+
+	<!-- Pre-load logo fonts -->
+	<!-- <link rel="preload" href="assets/Getlost.otf" as="font" type="font/otf"> -->
+	<link rel="preload" href="assets/js_archive/main.js" as="script">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="assets/css_archive/animate2.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="assets/css_archive/bootstrap2.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="assets/css_archive/style.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="assets/css_archive/magnific-popup.css">
+	<!-- Modernizr JS -->
+	<script src="assets/js_archive/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="assets/js_archive/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- JS additional functions -->
+	<script src="assets/js_archive/functions.js"></script>
+
+	<!-- JS image album data -->
+	<script src="data/pandaatje_blackwhite.js"></script>
+
+	</head>
+
+	<!-- onload="LoadIMGSBackup()"  -->
+	<body style="overflow-y: hidden; background-color: rgb(0,0,0,0.82);cursor: none;">
+
+
+		<div class="cursor">
+			<div class="cursor__ball cursor__ball--big">
+			  <svg height="50" width="50"><circle cx="25" cy="25" r="25" stroke-width="0"></circle></svg>
+			</div>
+			<div class="cursor__ball cursor__ball--small">
+			  <svg height="70" width="70"><circle cx="35" cy="35" r="35" stroke-width="0"></circle></svg>
+			  <p class="cursor-text"></p>
+			</div>
+		  </div>
+
+		<header id="header">
+			<button class="mobile_menu_button lines-button x" onclick="menuBtnClicked()"><span class="lines"></span></button>
+			<h1 class="header_logo"><a class="hoverable_large" onclick="goToUrl('#header > h1 > a','index.html')">Pandaatje</a></h1>
+			<nav id="menu" style="overflow: hidden; width: 100%;">
+			  <div class="header_logo is_mobile" style="width: 656px;"><a href="index.html"></a></div>
+			  <ul class="menu_list no_list">
+					<li class="item hoverable_noText">
+					  <a onclick="goToUrl('#menu > ul > li:nth-child(1)','color_recent.html')">Recent Work</a>
+					</li>
+					<li class="item hoverable_noText">
+					  <a onclick="goToUrl('#menu > ul > li:nth-child(2)','color_archive.html')">Color Archive</a>
+					</li>
+					<li class="item hoverable_noText">
+					  <a onclick="goToUrl('#menu > ul > li:nth-child(3)','bw_recent.html')">Black &amp; White</a>
+					</li>
+					<li class="item is_selected hoverable_noText">
+					  <a onclick="goToUrl('#menu > ul > li:nth-child(4)','bw_archive.html')">Black &amp; White Archive</a>
+					</li>
+					<li class="item hoverable_noText">
+						<a onclick="goToUrl('#menu > ul > li:nth-child(5)','info.html')">Info</a>
+					</li>
+			  </ul>
+			</nav>
+		  </header>
+
+		  
+	<div class="container-fluid" style="z-index: 0;" id="fh5co-image-grid"><div class="grid"><div class="grid-sizer" id="add-images-here"></div></div></div>
+
+	<script type="text/javascript">
+
+		// shuffleArray(data); // shuffle data 
+		addImages(document.getElementById("add-images-here"),data,data.length); // add remaining images
+
+	</script>
+
+	<!-- jQuery -->
+	<script src="assets/js_archive/jquery.min.js"></script>
+
+	<!-- jQuery Easing -->
+	<script src="assets/js_archive/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="assets/js_archive/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="assets/js_archive/jquery.waypoints.min.js"></script>
+	<!-- Magnific -->
+	<script src="assets/js_archive/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js_archive/magnific-popup-options.js"></script>
+	<!-- Isotope & imagesLoaded -->
+	<script src="assets/js_archive/isotope.pkgd.min.js"></script>
+	<script src="assets/js_archive/imagesloaded.pkgd.min.js"></script>
+	<!-- GSAP  -->
+	<script src="assets/js_archive/CSSPlugin.min.js"></script>
+	<script src="assets/js_archive/EasePack.min.js"></script>
+	<!-- MAIN JS -->
+	<script src="assets/js_archive/main.js"></script>
+
+	<!-- ######################################################### -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+	<script src='assets/code/cursor_animation.js' type='text/javascript'></script>
+	<!-- ######################################################### -->
+
+	<!-- SCROLL DOWN -->
+	<script type="text/javascript">
+
+		function menuBtnClicked(){
+			console.log("menu btn clicked!")
+			if(document.getElementById("menu").className=="mob_menu_is_open") {
+				document.getElementById("menu").className = "mob_menu_is_closed";
+				document.querySelector("#header > button > span").className = "lines";
+				document.querySelector("#header > button").className = "mobile_menu_button lines-button x"
+				
+			}else{
+				document.getElementById("menu").className = "mob_menu_is_open";
+				document.querySelector("#header > button > span").className = "lines mob_menu_is_open_btn_lines";
+				document.querySelector("#header > button").className = "mobile_menu_button lines-button x mob_menu_is_open_size"
+				
+			}
+		}
+		
+		// show cursor on desktop
+		if(!window.matchMedia("(pointer: coarse)").matches) {
+			document.getElementsByClassName("cursor")[0].style.display = "block";
+		}
+		
+		// load first 20 images
+		for( i = 0; i < 20; i++) {
+			items_images[i].src =  data[i].url_small[0];
+			items_images[i].className = "img-responsive fadeinSlower"
+		}
+
+
+	</script>
+
+
+</body>
+</html>
+
