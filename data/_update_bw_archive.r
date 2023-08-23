@@ -8,7 +8,7 @@ album_id = "72177720310431432"
 key = "cb93bec605e4ab52dfd938123758030e" # api key
 user_id = "192449207@N07"
 
-website_dir="/Users/osx/Documents/Websites/WEBSITE_Pandaatje/Website_new/data"
+website_dir="/Users/osx/Documents/Websites/WEBSITE_Pandaatje/Website/data"
 date=format(Sys.time(), format="%Y_%m_%d_%H_%M")
 
 removeCharacters = function(str){

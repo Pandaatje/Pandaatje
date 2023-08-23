@@ -11,7 +11,7 @@ album_id = "72177720310441565"
 key = "cb93bec605e4ab52dfd938123758030e" # api key
 user_id = "192449207@N07"
 
-website_dir="/Users/osx/Documents/Websites/WEBSITE_Pandaatje/Website_new/data"
+website_dir="/Users/osx/Documents/Websites/WEBSITE_Pandaatje/Website/data"
 source(glue("{website_dir}/template/functions.r"))
 date=format(Sys.time(), format="%Y_%m_%d_%H_%M")
 
@@ -53,6 +53,7 @@ for(i in 1:n) {
   cat(i,"/",n,"\n")
   download.file(dataPhotos[[i]]$url_small, glue("{website_dir}/tmp.jpg"), mode = "wb")
   jpg = readJPEG(glue("{website_dir}/tmp.jpg"))
+  if(length(dim(jpg))==2) jpg = array(c(jpg,jpg,jpg),c(dim(jpg),3))
   pal = image_palette(jpg, 1, mean, TRUE)
   #display_palette(pal)
   dataPhotos[[i]]$dominant_color = pal
