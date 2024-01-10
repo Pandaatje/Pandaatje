@@ -173,7 +173,7 @@ var _4ORMAT_DATA = {
 "image_url_09": "https://live.staticflickr.com/65535/53137307965_cbcf93da95_o.jpg","image_dimensions_09" : [4000,5333],
 "image_url_10": "https://live.staticflickr.com/65535/53137307965_cbcf93da95_o.jpg","image_dimensions_10" : [4000,5333]},
  
-{"title": "04_06-1_00",
+{"title": "Cascata del Pescone II - Agrano, Italy",
 "id": "https://live.staticflickr.com/65535/53347388344_2a3ee787f2_o_",
 "type": "image",
 "copy_alignment": "none",
@@ -610,7 +610,7 @@ var _4ORMAT_DATA = {
 "image_url_09": "https://live.staticflickr.com/65535/51578572364_132fc82360_k.jpg","image_dimensions_09" : [2048,1535],
 "image_url_10": "https://live.staticflickr.com/65535/51578572364_9aa9ec124b_o.jpg","image_dimensions_10" : [3766,2822]},
  
-{"title": "05_01-1_01",
+{"title": "Cascata del Pescone III - Agrano, Italy",
 "id": "https://live.staticflickr.com/65535/53347388474_dc8bbcbd61_o_",
 "type": "image",
 "copy_alignment": "none",

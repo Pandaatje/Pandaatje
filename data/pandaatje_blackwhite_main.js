@@ -104,7 +104,7 @@ var _4ORMAT_DATA = {
 "image_url_09": "https://live.staticflickr.com/65535/53137307980_e5a59ea619_o.jpg","image_dimensions_09" : [4068,5424],
 "image_url_10": "https://live.staticflickr.com/65535/53137307980_e5a59ea619_o.jpg","image_dimensions_10" : [4068,5424]},
  
-{"title": "04_04-1_00",
+{"title": "Cascata del Pescone I - Agrano, Italy",
 "id": "https://live.staticflickr.com/65535/53347515980_4e82f7eca9_o_",
 "type": "image",
 "copy_alignment": "none",
@@ -219,7 +219,7 @@ var _4ORMAT_DATA = {
 "image_url_09": "https://live.staticflickr.com/65535/52173736808_07f0c41d4e_k.jpg","image_dimensions_09" : [2048,1535],
 "image_url_10": "https://live.staticflickr.com/65535/52173736808_4f036e7501_o.jpg","image_dimensions_10" : [4000,2998]},
  
-{"title": "01_05-1_01",
+{"title": "Belvedere d'Arpy III - Arpy, Italy",
 "id": "https://live.staticflickr.com/65535/53347297793_66679a0f8e_k_",
 "type": "image",
 "copy_alignment": "none",
@@ -288,7 +288,7 @@ var _4ORMAT_DATA = {
 "image_url_09": "https://live.staticflickr.com/65535/52174209975_32b11bfcc3_k.jpg","image_dimensions_09" : [2048,1535],
 "image_url_10": "https://live.staticflickr.com/65535/52174209975_25ee5f1407_o.jpg","image_dimensions_10" : [3707,2778]},
  
-{"title": "01_08-1_00",
+{"title": "Belvedere d'Arpy II - Arpy, Italy",
 "id": "https://live.staticflickr.com/65535/53347064951_a44a5efc42_o_",
 "type": "image",
 "copy_alignment": "none",
