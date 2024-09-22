@@ -11,7 +11,7 @@ album_id = "72177720310441565"
 key = "cb93bec605e4ab52dfd938123758030e" # api key
 user_id = "192449207@N07"
 
-website_dir="/Volumes/WebLib/Websites/WEBSITE_Pandaatje/data"
+website_dir= "/Users/osx/Documents/Websites/WEBSITE_Pandaatje/data" # "/Volumes/WebLib/Websites/WEBSITE_Pandaatje/data"
 source(glue("{website_dir}/template/functions.r"))
 date=format(Sys.time(), format="%Y_%m_%d_%H_%M")
 
@@ -60,5 +60,6 @@ for(i in 1:n) {
 }
 
 # create image data
-create_data_file(dataPhotos,wd=website_dir,template_file=glue("{website_dir}/template/template.js"),out_name=glue("{website_dir}/pandaatje_blackwhite_main.js"))
+create_data_file(dataPhotos,wd=website_dir,template_file=glue("{website_dir}/template/template.js"),
+                 out_name=glue("{website_dir}/pandaatje_blackwhite_main.js"))
 
